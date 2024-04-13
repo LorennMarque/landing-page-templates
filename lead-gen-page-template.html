@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lead Gen Page Template</title>
+    <meta name="description" content="Your website description here!">
+    <style>
+      *{
+          margin: 0;
+          padding: 0;
+      }
+  
+      #hero{
+          display: flex;
+          height: 75vh;
+      }
+
+      #hero h1{
+              font-size: 390%
+          }
+  
+      .left_hero {
+          width: 61.8vw; /* El 61.8% del viewport width */
+          background-color: red;
+      }
+  
+      .right_hero {
+          width: 38.2vw; /* El 38.2% del viewport width */
+          background-color: blue;
+      }
+  
+      .container{
+          margin: 0 15%;
+      }
+  
+      #hero .container{
+          margin-top: 15%;
+      }
+  
+      @media (max-width: 768px) {
+          #hero {
+              flex-direction: column; /* Cambia la dirección de la disposición flex a columna invertida */
+              height: auto;
+          }
+
+          #hero h1{
+              font-size: 300%
+          }
+  
+          .left_hero, .right_hero {
+              width: 100%; /* Ancho completo en tamaños de pantalla móvil */
+          }
+
+          .right_hero{
+              max-height: 350px;
+          }
+
+          .left_hero{
+              padding-bottom: 50px;
+          }
+      }
+  </style>
+  </head>
+  <body>
+    <section id="hero">
+      <div class="left_hero">
+          <div class="container">
+          <h1>Headline - Benefit oriented offer</h1>
+          <p style="font-size: 150%;margin-top: 15px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim minima facere non error. Repudiandae hic, veniam omnis atque molestiae tenetur error, quasi deserunt ut maxime corrupti iure blanditiis harum nisi.</p>
+      </div></div>
+      <div class="right_hero"></div>
+  </section>
+  </body>
+</html>
