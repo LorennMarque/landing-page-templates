@@ -1,0 +1,190 @@
+:root {
+  --primary: #484fd1;
+  --secondary: #adadad;
+}
+
+.texto-plata {
+  background-image: linear-gradient(to right, #ddd, #fff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+#offer {
+  padding: 5% 0;
+  background-color: #f7f7f7;
+}
+
+#Colcontainer {
+  display: flex;
+}
+
+#offer h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.location {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.mainTitle {
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.counter {
+  font-weight: bold;
+  font-size: 8rem;
+}
+
+#benefits {
+  background-color: var(--primary);
+  color: var(--secondary);
+  padding: 5% 0;
+}
+
+#portfolio {
+  background-color: var(--primary);
+  color: #ffffff;
+  padding: 5% 0;
+}
+
+#portfolio h2 {
+  font-weight: bold;
+}
+
+#portfolio img {
+  margin-top: 5%;
+  background-color: gray;
+  height: 100%;
+  width: 100%;
+}
+
+#about-us {
+  background-color: var(--primary);
+  min-height: 65vh;
+  color: white;
+}
+
+#faq {
+  min-height: 60vh;
+  padding: 5% 0;
+}
+
+#contacto {
+  background-color: #f7f7f7;
+  min-height: 55vh;
+  padding: 5% 0;
+}
+
+#banner {
+  display: flex;
+  color: #f7f7f7;
+  background-color: var(--primary);
+  height: 7vh;
+  align-items: center;
+}
+
+.reviewCounter {
+  display: flex;
+  gap: 15px;
+  position: absolute;
+  left: 100px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.cta {
+  position: absolute;
+  right: 100px;
+}
+
+.cta a {
+  background-color: #f7f7f7;
+  padding: 8px 10px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--primary);
+}
+
+#topNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 100px;
+  padding: 15px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 180px;
+}
+
+.certification {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100px;
+  width: 100px;
+}
+
+.info {
+  text-align: end;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.textCTA {
+  color: var(--primary);
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+#hero {
+  height: 65vh;
+  color: #f7f7f7;
+  width: 100%;
+  background-image: url("../images/sanidad-ambiental-fumigacion-san-juan.png");
+  background-size: cover;
+}
+
+#hero h1 {
+  font-size: 300%;
+}
+
+/* Consulta de medios para dispositivos con un ancho máximo de 768px (por ejemplo, teléfonos) */
+@media only screen and (max-width: 768px) {
+  #topNav {
+    display: none;
+  }
+  #hero h1 {
+    font-size: 200%;
+    text-align: center;
+  }
+  #hero {
+    background-position: 700px;
+    text-align: center;
+  }
+}
+
+.icon {
+  background-color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75px;
+  width: 75px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
